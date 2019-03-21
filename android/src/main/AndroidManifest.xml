@@ -13,6 +13,7 @@
             android:grantUriPermissions="true"
             tools:replace="android:authorities">
             <meta-data
+                tools:replace="android:resource"
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/filepaths"
                  />
